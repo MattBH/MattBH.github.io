@@ -1,0 +1,138 @@
+.formacao-box{
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+  
+}
+.formacao-box::after {
+  content: "";
+  display: block;
+  height: 113px;
+  width: 127px;
+  background-image: url(/Imgs/detalhe.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 860px;
+  margin-left: 25px;
+}
+.formacao-coluna{
+  color: #000000;
+  max-width: 5ch;
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+.formacao-p{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+.bot{
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+.wht{
+  color: white;
+}
+.formacao{
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 60px;
+gap: 20px;
+}
+.facul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+  background-color: black;
+  padding: 20px;
+  border-radius: 4px;
+
+}
+.facul-nv{
+  text-transform: uppercase;
+  font-size: .875rem;
+  color: rgb(163, 163, 163);
+}
+.facul-deq{
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  position: relative
+}
+.facul-qual{
+  font-size: 1.125rem;
+    color: rgb(163, 163, 163);
+
+}
+.facul::before{
+  content: "";
+  height: 20px;
+  width: 4px;
+  background-image: linear-gradient(rgb(182, 248, 41), rgb(103, 221, 10));
+  position: absolute;
+  margin-top: 27px;
+  margin-left: -24px;
+}
+h5{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: rgb(143, 143, 143);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.bckimg .cursos::before{
+  content: "";
+  display: block;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin-left: -32px ;
+  margin-top: -2px ;
+  background-image: url(/Imgs/cursos.svg);
+}
+.bckimg .idiomas::before{
+  content: "";
+  display: block;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin-left: -32px ;
+  margin-top: -2px ;
+  background-image: url(/Imgs/idiomas.svg);
+}
+.lista-fim{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  max-width: 1200px;
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.lista-fim span{
+  text-align: end;
+}
+ul span{
+  color: rgb(143, 143, 143);
+  font-size: 1.125rem;
+  line-height: 1.4;
+
+}
+.lista-fim2{
+  gap: 10px;
+  display: grid;
+  line-height: 1.3;
+  grid-template-columns: auto 1fr;
+}
+
