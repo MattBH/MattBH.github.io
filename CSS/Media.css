@@ -45,3 +45,14 @@ margin: 10px;
   background-color: black;
 }
 }
+@media (max-width: 500px){
+.intro h2{
+  font-size: 64px;
+}
+.formacao-coluna{
+  font-size: 64px; 
+}
+.exp-desc{
+  margin: 0;
+}
+}
