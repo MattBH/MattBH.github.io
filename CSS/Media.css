@@ -1,0 +1,47 @@
+@media (max-width: 800px){
+  .intro{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .intro h2{
+    margin: 0px;
+    text-align: start;
+    font-size: 100px;
+    padding: 20px;
+  }
+.intro img{
+max-height: 0;
+}
+.intro .exp-desc{
+  padding: 26px;
+  margin-bottom: 0px;
+}
+.top .exp{
+margin: 10px;
+}
+.top{
+  margin-bottom: 10px;
+}
+.formacao-box{
+  grid-template-columns: 1fr;
+}
+.formacao-coluna{
+  font-size: 100px;
+  max-width: 12ch;
+}
+.formacao-box{
+  gap: 60px;
+  padding: 60px 35px;
+}
+.formacao-box::after{
+  height: 0;
+}
+.footer-box{
+  grid-template-columns: 1fr;
+}
+.span{
+  text-align: center;
+  padding: 40px;
+  background-color: black;
+}
+}
